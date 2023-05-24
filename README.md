@@ -1,4 +1,4 @@
-# arachnophobia
+# Arachnophobia
 
 You can checkout __Live__ Demo [right here](https://raw.githack.com/ppauliuchenka02/arachnophobia/main/index.html).
 
