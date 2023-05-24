@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+#main h1 {
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+}
+
+#main a {
+  font-size: 3rem;
+  color: #ffffff;
+}
+#main, #game, #levelGame, #levels, #rules, #results {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#main h1 {
+  text-align: center;
+  padding-top: 5%;
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+}
+
+#main #main-links {
+  height: 65vh;
+}
+
+#main a {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+#game a, #rules a, #results a, #levelGame a, #levels a {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+#main a:hover, #game a:hover, #rules a:hover, #results a:hover, #levelGame a:hover, #levels a:hover {
+  text-decoration: underline;
+}
+
+#game button, #levels button {
+  margin: 0 auto;
+  font-size: 2vh;
+  margin-top: 3%;
+}
+
+#levelGame div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5%;
+  grid-auto-rows: 200px;
+  padding: 10%;
+}
+
+#levelGame div > a {
+  align-self: center;
+  justify-self: center;
+  display: block;
+  padding: 5% 9%;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+  cursor: pointer;
+}
+
+canvas {
+  margin-top: 1%;
+}
+
+#score {
+  font-size: 2rem;
+  margin-top: 1%;
+  color: #ffffff;
+}
+
+#scoreTable {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#scoreTable th, #scoreTable td {
+  border: none;
+  width: 35%;
+  font-size: 3vh;
+}
+
+#rules p {
+  color: #ffffff;
+  padding: 1vw 5vw;
+  font-size: 3vh;
+}
+
+/* #canvas, #results, #rules, #game {
+  min-width: 780px;
+  min-height: 640px;
+} */
+
+table th, td {
+  color: #fff;
+}
